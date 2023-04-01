@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --Strong-Cyan: rgb(38, 186, 164);
+    --Light-Blue: rgb(97, 115, 255);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: rgb(159, 171, 178);
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --Font-size: 18px;
+    --medium-weight: 400;
+    --bold-weight: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--Font-size);
+    font-weight: var(--medium-weight);
+    color: var(--Dark-Grayish-Blue);
+    background-color: white;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.header {
+    height: 550px;
+
+}
+
+.header-two {
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.top-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+button {
+    height: 40px;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.ios-button {
+    background-color: var(--Strong-Cyan);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid var(--Strong-Cyan);
+    font-weight: var(--bold-weight);
+    box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.25);
+}
+
+.mac-button {
+    background-color: var(--Light-Blue);
+    color: white;
+    border-radius: 20px;
+    border: 2px solid var(--Light-Blue);
+    font-weight: var(--bold-weight);
+    box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.25)
+}
+
+p {
+    margin-top: 30px;
+    color: var(--Grayish-Blue);
+}
+
+
+.p11 {
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+
+}
+.computer {
+    width: 630px;
+    margin-left: -27px;
+}
+.devices {
+    width: 650px;
+    margin-top: 70px;
+}
+.p2-texts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.pp {
+    margin-top: 0;
+}
+
+
+.header-three {
+    margin-top: 20px;
+}
+
+.p33 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.p31 {
+    flex: 1;
+}
+.p31-icon {
+    height: 30px;
+
+}
+.p33-icon {
+    padding-top: 20px;
+    height: 30px;
+}
+
+.footer {
+    background-color: rgba(159, 171, 178, 0.15);
+    height: 100px;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.contact-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.bottom-icon {
+    height: 50px;
+    display: block;
+    margin: auto;
+    
+}
+
+.socials {
+    display: flex;
+    height: 20px;
+    width: 100px;
+    justify-content: space-between;
+    margin: auto;
+}
+
